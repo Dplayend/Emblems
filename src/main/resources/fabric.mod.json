@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pigemb",
+  "version": "${version}",
+  "name": "Piglin Emblem",
+  "description": "Thanks for download my mod!",
+  "authors": ["Dplayend"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Dplayend/Piglin-Emblem",
+    "issues": "https://github.com/Dplayend/Piglin-Emblem/issues"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/pigemb/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dplayend.pigemb.PiglinEmblem"]
+  },
+  "mixins": ["pigemb.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
